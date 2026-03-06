@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Plastic Water Bottle",
+    "type": "Plastic",
+    "brand": "FreshLife",
+    "price": 250,
+    "capacity_ml": 750,
+    "color": "Blue",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Stainless Steel Bottle",
+    "type": "Steel",
+    "brand": "CoolHydro",
+    "price": 850,
+    "capacity_ml": 1000,
+    "color": "Silver",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Glass Water Bottle",
+    "type": "Glass",
+    "brand": "PureSip",
+    "price": 600,
+    "capacity_ml": 500,
+    "color": "Transparent",
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Thermal Bottle",
+    "type": "Thermal",
+    "brand": "HotCold",
+    "price": 1200,
+    "capacity_ml": 900,
+    "color": "Black",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Sports Bottle",
+    "type": "Plastic",
+    "brand": "FitLife",
+    "price": 400,
+    "capacity_ml": 650,
+    "color": "Red",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Mini Travel Bottle",
+    "type": "Steel",
+    "brand": "TravelMate",
+    "price": 700,
+    "capacity_ml": 400,
+    "color": "Green",
+    "inStock": false
+  },
+  {
+    "id": 7,
+    "name": "Eco Bamboo Bottle",
+    "type": "Bamboo",
+    "brand": "EcoPure",
+    "price": 950,
+    "capacity_ml": 800,
+    "color": "Brown",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Kids Cartoon Bottle",
+    "type": "Plastic",
+    "brand": "HappyKids",
+    "price": 300,
+    "capacity_ml": 500,
+    "color": "Yellow",
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Luxury Gold Bottle",
+    "type": "Steel",
+    "brand": "RoyalDrink",
+    "price": 2000,
+    "capacity_ml": 750,
+    "color": "Gold",
+    "inStock": false
+  },
+  {
+    "id": 10,
+    "name": "Collapsible Silicone Bottle",
+    "type": "Silicone",
+    "brand": "FlexSip",
+    "price": 550,
+    "capacity_ml": 600,
+    "color": "Purple",
+    "inStock": true
+  }
+]
