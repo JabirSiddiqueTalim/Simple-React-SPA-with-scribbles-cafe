@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import Blog from '../Blog/Blog';
 
 const Blogs = () => {
-  const [blog, setblog] = useState([]);
+  const [blogs, setblog] = useState([]);
 
   useEffect(() => {
     fetch("/public/fakeData.json").
@@ -10,10 +11,16 @@ const Blogs = () => {
 
   }, [])
 
-  console.log(blog);
+  console.log(blogs);
   return (
-    <div>
-      <h1>Total Blogs : {blog.length}</h1>
+    <div >
+      <h1>Total Blogs : {blogs.length}</h1>
+      <div className='grid grid-cols-3'>
+       {
+        blogs.map(blog=>< Blog blog={blog}></Blog>)
+       }
+        
+      </div>
 
     </div>
   );

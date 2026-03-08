@@ -12,7 +12,7 @@ function App() {
         <div className="left-container w-[70%]">
           <h2>left container </h2>
           <Blogs></Blogs>
-
+          
         </div>
         <div className="right-container w-[30%]">
           <h2>right container</h2>

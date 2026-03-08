@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -7,96 +8,145 @@
     "price": 250,
     "capacity_ml": 750,
     "color": "Blue",
-    "inStock": true
+    "image": "../src/assets/image/bottle3.jpeg"
   },
   {
     "id": 2,
     "name": "Stainless Steel Bottle",
-    "type": "Steel",
-    "brand": "CoolHydro",
+    "type": "Stainless Steel",
+    "brand": "HydroMax",
     "price": 850,
     "capacity_ml": 1000,
     "color": "Silver",
-    "inStock": true
+    "image": "../src/assets/image/images4.jpeg"
   },
   {
     "id": 3,
-    "name": "Glass Water Bottle",
-    "type": "Glass",
-    "brand": "PureSip",
-    "price": 600,
+    "name": "Kids Cartoon Bottle",
+    "type": "Kids",
+    "brand": "FunSip",
+    "price": 300,
     "capacity_ml": 500,
-    "color": "Transparent",
-    "inStock": false
+    "color": "Pink",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=500&q=60"
   },
   {
     "id": 4,
-    "name": "Thermal Bottle",
+    "name": "Insulated Thermal Bottle",
     "type": "Thermal",
-    "brand": "HotCold",
+    "brand": "HeatLock",
     "price": 1200,
     "capacity_ml": 900,
     "color": "Black",
-    "inStock": true
+    "image": "../src/assets/image/bottle2.jpeg"
   },
   {
     "id": 5,
-    "name": "Sports Bottle",
-    "type": "Plastic",
-    "brand": "FitLife",
-    "price": 400,
-    "capacity_ml": 650,
-    "color": "Red",
-    "inStock": true
+    "name": "Glass Water Bottle",
+    "type": "Glass",
+    "brand": "GreenDrop",
+    "price": 600,
+    "capacity_ml": 750,
+    "color": "Transparent",
+    "image": "../src/assets/image/Awyhkwk2cpOLkoVkKCl8fsQ5XM8Jd63szYGUMrhq.webp"
   },
   {
     "id": 6,
-    "name": "Mini Travel Bottle",
-    "type": "Steel",
-    "brand": "TravelMate",
-    "price": 700,
-    "capacity_ml": 400,
+    "name": "Collapsible Silicone Bottle",
+    "type": "Silicone",
+    "brand": "FlexiSip",
+    "price": 400,
+    "capacity_ml": 700,
     "color": "Green",
-    "inStock": false
+    "image": "../src/assets/image/bottle6.avif"
   },
   {
     "id": 7,
-    "name": "Eco Bamboo Bottle",
-    "type": "Bamboo",
-    "brand": "EcoPure",
-    "price": 950,
-    "capacity_ml": 800,
-    "color": "Brown",
-    "inStock": true
+    "name": "Sports Water Bottle",
+    "type": "Plastic",
+    "brand": "ActiveFlow",
+    "price": 350,
+    "capacity_ml": 600,
+    "color": "Red",
+    "image": "../src/assets/image/bottle7.avif"
   },
   {
     "id": 8,
-    "name": "Kids Cartoon Bottle",
-    "type": "Plastic",
-    "brand": "HappyKids",
-    "price": 300,
-    "capacity_ml": 500,
-    "color": "Yellow",
-    "inStock": true
+    "name": "Luxury Stainless Bottle",
+    "type": "Stainless Steel",
+    "brand": "EliteHydro",
+    "price": 1500,
+    "capacity_ml": 1200,
+    "color": "Gold",
+    "image": "../src/assets/image/bottle8.avif"
   },
   {
     "id": 9,
-    "name": "Luxury Gold Bottle",
-    "type": "Steel",
-    "brand": "RoyalDrink",
-    "price": 2000,
-    "capacity_ml": 750,
-    "color": "Gold",
-    "inStock": false
+    "name": "Eco Bamboo Bottle",
+    "type": "Glass",
+    "brand": "EcoSip",
+    "price": 700,
+    "capacity_ml": 800,
+    "color": "Brown",
+    "image": "../src/assets/image/bottle9.avif"
   },
   {
     "id": 10,
-    "name": "Collapsible Silicone Bottle",
-    "type": "Silicone",
-    "brand": "FlexSip",
-    "price": 550,
-    "capacity_ml": 600,
-    "color": "Purple",
-    "inStock": true
+    "name": "Travel Thermos Bottle",
+    "type": "Thermal",
+    "brand": "TravelMate",
+    "price": 1100,
+    "capacity_ml": 1000,
+    "color": "Blue",
+    "image": "../src/assets/image/bottle10.avif"
+  },
+  {
+    "id": 11,
+    "name": "Colorful Kids Bottle",
+    "type": "Kids",
+    "brand": "HappySip",
+    "price": 320,
+    "capacity_ml": 500,
+    "color": "Yellow",
+    "image": "../src/assets/image/bottle11.avif"
+  },
+  {
+    "id": 12,
+    "name": "Minimalist Metal Bottle",
+    "type": "Stainless Steel",
+    "brand": "MonoHydro",
+    "price": 900,
+    "capacity_ml": 900,
+    "color": "Gray",
+    "image": "../src/assets/image/bottle12.avif"
+  },
+  {
+    "id": 13,
+    "name": "Outdoor Hiking Bottle",
+    "type": "Plastic",
+    "brand": "TrailSip",
+    "price": 450,
+    "capacity_ml": 1000,
+    "color": "Orange",
+    "image": "../src/assets/image/bottle13.avif"
+  },{
+    "id": 14,
+    "name": "Stainless Steel Bottle",
+    "type": "Stainless Steel",
+    "brand": "HydroMax",
+    "price": 850,
+    "capacity_ml": 1000,
+    "color": "Silver",
+    "image": "../src/assets/image/bottle14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Kids Cartoon Bottle",
+    "type": "Kids",
+    "brand": "FunSip",
+    "price": 300,
+    "capacity_ml": 500,
+    "color": "Pink",
+    "image": "../src/assets/image/bottle15.jpg"
   }
 ]
