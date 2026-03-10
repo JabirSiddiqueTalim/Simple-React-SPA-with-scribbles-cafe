@@ -5,7 +5,17 @@ import { useState } from 'react'
 function App() {
   const [bookMarked,setbookMarked]=useState([])
   const clickBookmark=(blog)=>{
-    setbookMarked([...bookMarked,blog]);
+    if(!bookMarked.includes(blog))
+    {
+      setbookMarked([...bookMarked,blog]);
+
+    }else
+    {
+      const netbookmarked=bookMarked.filter(book=>book!=blog);
+      setbookMarked([...netbookmarked])
+
+    }
+    
     // console.log(bookMarked);
 
     
@@ -25,9 +35,9 @@ function App() {
         <div className="right-container w-[30%]">
           <h2>right container</h2>
           <h3>Reading count : </h3>
-          <h3>Bookmarked count : </h3>
+          <h3>Bookmarked count :{bookMarked.length} </h3>
           {
-            bookMarked.map((bookMark)=><p>{bookMark.name}</p>)
+            bookMarked.map((bookMark)=><p className='bg-red-950 text-white'>{bookMark.name}</p>)
           }
 
         </div>
