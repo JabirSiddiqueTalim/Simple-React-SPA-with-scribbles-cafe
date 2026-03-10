@@ -2,7 +2,7 @@ import React from 'react';
 import './Blog.css';
 import { FaBookmark } from "react-icons/fa";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog,clickBookmark }) => {
   return (
     <div className='card'>
       
@@ -20,7 +20,7 @@ const Blog = ({ blog }) => {
             
             {blog.name}
             <div className="badge badge-secondary">NEW</div>
-            < FaBookmark size={20}/>
+           <button  onClick={()=>clickBookmark(blog)}> < FaBookmark size={20}/></button>
           </h2> 
           <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
           <div className="card-actions justify-end">
