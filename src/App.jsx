@@ -2,6 +2,7 @@ import Navbar from './component/Navbar/Navbar'
 import Blogs from './component/Blogs/Blogs'
 import { useState } from 'react'
 import { ImGift } from 'react-icons/im'
+import Footer from './component/Footer/Footer'
 
 function App() {
   const [bookMarked, setbookMarked] = useState([])
@@ -67,6 +68,7 @@ function App() {
 
         </div>
       </div>
+      <Footer></Footer>
 
 
     </>
