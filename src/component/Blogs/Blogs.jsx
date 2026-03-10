@@ -14,7 +14,7 @@ const Blogs = ({clickBookmark}) => {
   // console.log(blogs);
   return (
     <div >
-      <h1>Total Blogs : {blogs.length}</h1>
+      <h1 className='bg-blue-950 text-amber-100 p-2  border-blue-950 rounded-xl m-2'>Total Blogs : {blogs.length}</h1>
       <div className='grid grid-cols-3'>
        {
         blogs.map(blog=>< Blog key={blog.id} clickBookmark={()=>clickBookmark(blog)} blog={blog}></Blog>)
